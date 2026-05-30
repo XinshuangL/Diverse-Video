@@ -1,0 +1,17 @@
+# Python build artifacts.
+__pycache__/
+*.pyc
+*.pyo
+
+# Third-party model weights — download per models/README.md, do not commit.
+models/eden.pt
+models/Wan2.1-T2V-1.3B
+results/
+
+# Editor / OS clutter.
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.ipynb_checkpoints/
